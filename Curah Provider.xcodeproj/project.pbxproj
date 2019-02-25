@@ -1,0 +1,1266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE06D0652181F1E200BAAFE1 /* WebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE06D0642181F1E200BAAFE1 /* WebViewVC.swift */; };
+		AE150C5921101FA80042851B /* CreateProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE150C5821101FA70042851B /* CreateProfileVC.swift */; };
+		AE150C6021102ADC0042851B /* CompleteProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE150C5F21102ADC0042851B /* CompleteProfileVC.swift */; };
+		AE150C632110397D0042851B /* AddServicesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE150C622110397D0042851B /* AddServicesVC.swift */; };
+		AE150C66211047830042851B /* ReceiptVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE150C65211047830042851B /* ReceiptVC.swift */; };
+		AE150C6921105C0C0042851B /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE150C6821105C0C0042851B /* EditProfileVC.swift */; };
+		AE150C70211060D30042851B /* MyServicesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE150C6B211060D20042851B /* MyServicesVC.swift */; };
+		AE150C71211060D30042851B /* BankInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE150C6C211060D20042851B /* BankInfoVC.swift */; };
+		AE150C72211060D30042851B /* MyDocumentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE150C6D211060D20042851B /* MyDocumentsVC.swift */; };
+		AE150C73211060D30042851B /* ScheduleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE150C6E211060D20042851B /* ScheduleVC.swift */; };
+		AE150C74211060D30042851B /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE150C6F211060D30042851B /* ProfileVC.swift */; };
+		AE150C7F211084960042851B /* MyAppointmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE150C7E211084960042851B /* MyAppointmentVC.swift */; };
+		AE1D202521552AEF001DBCE7 /* AddservicesPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1D202421552AEF001DBCE7 /* AddservicesPopUpViewController.swift */; };
+		AE218A66216727D6009CBD40 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE218A65216727D6009CBD40 /* NotificationService.swift */; };
+		AE218A6A216727D6009CBD40 /* Curah Service Provider service extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AE218A63216727D6009CBD40 /* Curah Service Provider service extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AE22D8F3220D57F400093CF0 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE22D8F2220D57F400093CF0 /* ChangePasswordViewController.swift */; };
+		AE66D563215B45960023E261 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE66D562215B45950023E261 /* GoogleService-Info.plist */; };
+		AE78B890210F0AF100327F19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE78B88F210F0AF100327F19 /* Assets.xcassets */; };
+		AE78B8B3210F127900327F19 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE78B8B2210F127900327F19 /* Menu.swift */; };
+		AE78B8BF210F14EC00327F19 /* AvenirLTStd-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE78B8BB210F14EC00327F19 /* AvenirLTStd-Book.otf */; };
+		AE78B8C0210F14EC00327F19 /* AvenirLTStd-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE78B8BC210F14EC00327F19 /* AvenirLTStd-Heavy.ttf */; };
+		AE78B8C1210F14EC00327F19 /* AvenirLTStd-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE78B8BD210F14EC00327F19 /* AvenirLTStd-Light.otf */; };
+		AE78B8C2210F14EC00327F19 /* AvenirLTStd-Roman.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE78B8BE210F14EC00327F19 /* AvenirLTStd-Roman.otf */; };
+		AE78B8C9210F164200327F19 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE78B8C8210F164200327F19 /* SignUpViewController.swift */; };
+		AE78B8CC210F19D500327F19 /* AddCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE78B8CB210F19D500327F19 /* AddCardVC.swift */; };
+		AE78B8CF210F1E1800327F19 /* ServiceDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE78B8CE210F1E1800327F19 /* ServiceDetailsVC.swift */; };
+		AE78B8D2210F221D00327F19 /* HistoryListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE78B8D1210F221D00327F19 /* HistoryListVC.swift */; };
+		AE78B8D8210F278400327F19 /* EditDocumentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE78B8D4210F278400327F19 /* EditDocumentVC.swift */; };
+		AE78B8D9210F278400327F19 /* PortFolioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE78B8D5210F278400327F19 /* PortFolioVC.swift */; };
+		AE78B8DA210F278400327F19 /* AddPortfiloVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE78B8D6210F278400327F19 /* AddPortfiloVC.swift */; };
+		AE78B8DB210F278400327F19 /* PortFolioDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE78B8D7210F278400327F19 /* PortFolioDetailVC.swift */; };
+		AE78B8DE210F2CC300327F19 /* NotificationListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE78B8DD210F2CC300327F19 /* NotificationListVC.swift */; };
+		AE78B8E1210F2F3100327F19 /* MessagesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE78B8E0210F2F3100327F19 /* MessagesListVC.swift */; };
+		AE78B8E4210F313A00327F19 /* ContactUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE78B8E3210F313A00327F19 /* ContactUsVC.swift */; };
+		AE78B8E7210F314900327F19 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE78B8E6210F314900327F19 /* SettingsVC.swift */; };
+		AE78B8ED210F357D00327F19 /* RateReviewPopUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE78B8EC210F357D00327F19 /* RateReviewPopUpVC.swift */; };
+		AE78B8F0210F405800327F19 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE78B8EF210F405800327F19 /* HomeVC.swift */; };
+		AE835F3F214A8F41001F5F64 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE835F3E214A8F41001F5F64 /* ImageLoader.swift */; };
+		AE835F42214BFF3B001F5F64 /* ReviewListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE835F41214BFF3A001F5F64 /* ReviewListVC.swift */; };
+		AEA5AA592112D757009400C8 /* ChatTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA5AA572112D757009400C8 /* ChatTableCell.swift */; };
+		AEA5AA5A2112D757009400C8 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA5AA582112D757009400C8 /* ChatVC.swift */; };
+		AEA5AA5C21130C6B009400C8 /* CancelAppointmentPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA5AA5B21130C6B009400C8 /* CancelAppointmentPopupVC.swift */; };
+		AEC381B4215252B500B00414 /* ExtraExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC381B3215252B500B00414 /* ExtraExtensions.swift */; };
+		AEC7244C21303E930068E6BE /* ForgotPassswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC7244621303E930068E6BE /* ForgotPassswordViewController.swift */; };
+		AEC7244D21303E930068E6BE /* ForgotPasswordPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC7244721303E930068E6BE /* ForgotPasswordPopUpViewController.swift */; };
+		AEC7244E21303E930068E6BE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC7244921303E930068E6BE /* LoginViewController.swift */; };
+		AEC7244F21303E930068E6BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC7244B21303E930068E6BE /* AppDelegate.swift */; };
+		AEC7246721303F6E0068E6BE /* RequestParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC7245121303F6D0068E6BE /* RequestParams.swift */; };
+		AEC7246821303F6E0068E6BE /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC7245321303F6D0068E6BE /* APIManager.swift */; };
+		AEC7246921303F6E0068E6BE /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC7245421303F6D0068E6BE /* Progress.swift */; };
+		AEC7246A21303F6E0068E6BE /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC7245621303F6D0068E6BE /* Constant.swift */; };
+		AEC7246B21303F6E0068E6BE /* SaveUserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC7245821303F6E0068E6BE /* SaveUserResponse.swift */; };
+		AEC7246C21303F6E0068E6BE /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC7245A21303F6E0068E6BE /* Validation.swift */; };
+		AEC7246D21303F6E0068E6BE /* ButtonExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC7245C21303F6E0068E6BE /* ButtonExtentions.swift */; };
+		AEC7246E21303F6F0068E6BE /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC7245D21303F6E0068E6BE /* Colors.swift */; };
+		AEC7246F21303F6F0068E6BE /* CUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC7245E21303F6E0068E6BE /* CUIView.swift */; };
+		AEC7247021303F6F0068E6BE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC7245F21303F6E0068E6BE /* Extensions.swift */; };
+		AEC7247121303F6F0068E6BE /* StringExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC7246021303F6E0068E6BE /* StringExtentions.swift */; };
+		AEC7247221303F6F0068E6BE /* TextFieldsExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC7246121303F6E0068E6BE /* TextFieldsExtentions.swift */; };
+		AEC7247321303F6F0068E6BE /* UCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC7246221303F6E0068E6BE /* UCButton.swift */; };
+		AEC7247421303F6F0068E6BE /* UCTextFld.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC7246321303F6E0068E6BE /* UCTextFld.swift */; };
+		AEC7247521303F6F0068E6BE /* UITextFieldExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC7246421303F6E0068E6BE /* UITextFieldExtention.swift */; };
+		AEC7247621303F6F0068E6BE /* ViewExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC7246521303F6E0068E6BE /* ViewExtention.swift */; };
+		AEC7247721303F6F0068E6BE /* YLColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC7246621303F6E0068E6BE /* YLColor.swift */; };
+		AEC7247F21303FF10068E6BE /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC7247A21303FF10068E6BE /* HomeModel.swift */; };
+		AEC7248021303FF10068E6BE /* ModalBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC7247C21303FF10068E6BE /* ModalBase.swift */; };
+		AEC7248121303FF10068E6BE /* ModalShareInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC7247E21303FF10068E6BE /* ModalShareInstance.swift */; };
+		AEC72484213040BF0068E6BE /* BaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC72483213040BE0068E6BE /* BaseClass.swift */; };
+		AEC724882130415A0068E6BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC724862130415A0068E6BE /* LaunchScreen.storyboard */; };
+		AEC724892130415A0068E6BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC724872130415A0068E6BE /* Main.storyboard */; };
+		AEC7248F2130428A0068E6BE /* ViewPagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC7248B213042890068E6BE /* ViewPagerController.swift */; };
+		AEC724902130428A0068E6BE /* ViewPagerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC7248C213042890068E6BE /* ViewPagerOptions.swift */; };
+		AEC724912130428A0068E6BE /* ViewPagerTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC7248D213042890068E6BE /* ViewPagerTab.swift */; };
+		AEC724922130428A0068E6BE /* ViewPagerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC7248E213042890068E6BE /* ViewPagerTabView.swift */; };
+		AEC80F4D21528ED300A89E06 /* Extra_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC80F4C21528ED300A89E06 /* Extra_Extensions.swift */; };
+		FAF267C3CF5747CF26B6C78C /* Pods_Curah_Provider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CD8DC2280A2AED931CBBDC2 /* Pods_Curah_Provider.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE218A68216727D6009CBD40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE78B87D210F0AE800327F19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE218A62216727D6009CBD40;
+			remoteInfo = "Curah Service Provider service extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AE218A6E216727D6009CBD40 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AE218A6A216727D6009CBD40 /* Curah Service Provider service extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0CD8DC2280A2AED931CBBDC2 /* Pods_Curah_Provider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Curah_Provider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A01CD65D55330009960384E /* Pods-Curah Provider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Curah Provider.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Curah Provider/Pods-Curah Provider.debug.xcconfig"; sourceTree = "<group>"; };
+		A81BAA6A9D5E5ED68BFE1AEF /* Pods-Curah Provider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Curah Provider.release.xcconfig"; path = "Pods/Target Support Files/Pods-Curah Provider/Pods-Curah Provider.release.xcconfig"; sourceTree = "<group>"; };
+		AE06D0642181F1E200BAAFE1 /* WebViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewVC.swift; sourceTree = "<group>"; };
+		AE150C5821101FA70042851B /* CreateProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateProfileVC.swift; sourceTree = "<group>"; };
+		AE150C5F21102ADC0042851B /* CompleteProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteProfileVC.swift; sourceTree = "<group>"; };
+		AE150C622110397D0042851B /* AddServicesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddServicesVC.swift; sourceTree = "<group>"; };
+		AE150C65211047830042851B /* ReceiptVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptVC.swift; sourceTree = "<group>"; };
+		AE150C6821105C0C0042851B /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
+		AE150C6B211060D20042851B /* MyServicesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyServicesVC.swift; sourceTree = "<group>"; };
+		AE150C6C211060D20042851B /* BankInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankInfoVC.swift; sourceTree = "<group>"; };
+		AE150C6D211060D20042851B /* MyDocumentsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDocumentsVC.swift; sourceTree = "<group>"; };
+		AE150C6E211060D20042851B /* ScheduleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleVC.swift; sourceTree = "<group>"; };
+		AE150C6F211060D30042851B /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		AE150C7E211084960042851B /* MyAppointmentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAppointmentVC.swift; sourceTree = "<group>"; };
+		AE1D202421552AEF001DBCE7 /* AddservicesPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddservicesPopUpViewController.swift; sourceTree = "<group>"; };
+		AE218A63216727D6009CBD40 /* Curah Service Provider service extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Curah Service Provider service extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE218A65216727D6009CBD40 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		AE218A67216727D6009CBD40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE22D8F2220D57F400093CF0 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		AE2BD5D8215B565600302CE3 /* Curah Provider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Curah Provider.entitlements"; sourceTree = "<group>"; };
+		AE2CE750220B117E002E5DCC /* Curah Service Provider service extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Curah Service Provider service extension.entitlements"; sourceTree = "<group>"; };
+		AE66D562215B45950023E261 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AE78B885210F0AE800327F19 /* Curah Provider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Curah Provider.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE78B88F210F0AF100327F19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE78B894210F0AF100327F19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE78B8B2210F127900327F19 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		AE78B8BB210F14EC00327F19 /* AvenirLTStd-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-Book.otf"; sourceTree = "<group>"; };
+		AE78B8BC210F14EC00327F19 /* AvenirLTStd-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-Heavy.ttf"; sourceTree = "<group>"; };
+		AE78B8BD210F14EC00327F19 /* AvenirLTStd-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-Light.otf"; sourceTree = "<group>"; };
+		AE78B8BE210F14EC00327F19 /* AvenirLTStd-Roman.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-Roman.otf"; sourceTree = "<group>"; };
+		AE78B8C8210F164200327F19 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		AE78B8CB210F19D500327F19 /* AddCardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCardVC.swift; sourceTree = "<group>"; };
+		AE78B8CE210F1E1800327F19 /* ServiceDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceDetailsVC.swift; sourceTree = "<group>"; };
+		AE78B8D1210F221D00327F19 /* HistoryListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryListVC.swift; sourceTree = "<group>"; };
+		AE78B8D4210F278400327F19 /* EditDocumentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditDocumentVC.swift; sourceTree = "<group>"; };
+		AE78B8D5210F278400327F19 /* PortFolioVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortFolioVC.swift; sourceTree = "<group>"; };
+		AE78B8D6210F278400327F19 /* AddPortfiloVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPortfiloVC.swift; sourceTree = "<group>"; };
+		AE78B8D7210F278400327F19 /* PortFolioDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortFolioDetailVC.swift; sourceTree = "<group>"; };
+		AE78B8DD210F2CC300327F19 /* NotificationListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationListVC.swift; sourceTree = "<group>"; };
+		AE78B8E0210F2F3100327F19 /* MessagesListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesListVC.swift; sourceTree = "<group>"; };
+		AE78B8E3210F313A00327F19 /* ContactUsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsVC.swift; sourceTree = "<group>"; };
+		AE78B8E6210F314900327F19 /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		AE78B8EC210F357D00327F19 /* RateReviewPopUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateReviewPopUpVC.swift; sourceTree = "<group>"; };
+		AE78B8EF210F405800327F19 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		AE835F3E214A8F41001F5F64 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		AE835F41214BFF3A001F5F64 /* ReviewListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewListVC.swift; sourceTree = "<group>"; };
+		AEA5AA572112D757009400C8 /* ChatTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTableCell.swift; sourceTree = "<group>"; };
+		AEA5AA582112D757009400C8 /* ChatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		AEA5AA5B21130C6B009400C8 /* CancelAppointmentPopupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelAppointmentPopupVC.swift; sourceTree = "<group>"; };
+		AEC381B3215252B500B00414 /* ExtraExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtraExtensions.swift; sourceTree = "<group>"; };
+		AEC7244621303E930068E6BE /* ForgotPassswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPassswordViewController.swift; sourceTree = "<group>"; };
+		AEC7244721303E930068E6BE /* ForgotPasswordPopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordPopUpViewController.swift; sourceTree = "<group>"; };
+		AEC7244921303E930068E6BE /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AEC7244B21303E930068E6BE /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEC7245121303F6D0068E6BE /* RequestParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestParams.swift; sourceTree = "<group>"; };
+		AEC7245321303F6D0068E6BE /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		AEC7245421303F6D0068E6BE /* Progress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
+		AEC7245621303F6D0068E6BE /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		AEC7245821303F6E0068E6BE /* SaveUserResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveUserResponse.swift; sourceTree = "<group>"; };
+		AEC7245A21303F6E0068E6BE /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		AEC7245C21303F6E0068E6BE /* ButtonExtentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonExtentions.swift; sourceTree = "<group>"; };
+		AEC7245D21303F6E0068E6BE /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		AEC7245E21303F6E0068E6BE /* CUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUIView.swift; sourceTree = "<group>"; };
+		AEC7245F21303F6E0068E6BE /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AEC7246021303F6E0068E6BE /* StringExtentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtentions.swift; sourceTree = "<group>"; };
+		AEC7246121303F6E0068E6BE /* TextFieldsExtentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldsExtentions.swift; sourceTree = "<group>"; };
+		AEC7246221303F6E0068E6BE /* UCButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UCButton.swift; sourceTree = "<group>"; };
+		AEC7246321303F6E0068E6BE /* UCTextFld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UCTextFld.swift; sourceTree = "<group>"; };
+		AEC7246421303F6E0068E6BE /* UITextFieldExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldExtention.swift; sourceTree = "<group>"; };
+		AEC7246521303F6E0068E6BE /* ViewExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtention.swift; sourceTree = "<group>"; };
+		AEC7246621303F6E0068E6BE /* YLColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLColor.swift; sourceTree = "<group>"; };
+		AEC7247A21303FF10068E6BE /* HomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		AEC7247C21303FF10068E6BE /* ModalBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalBase.swift; sourceTree = "<group>"; };
+		AEC7247E21303FF10068E6BE /* ModalShareInstance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalShareInstance.swift; sourceTree = "<group>"; };
+		AEC72483213040BE0068E6BE /* BaseClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseClass.swift; sourceTree = "<group>"; };
+		AEC724862130415A0068E6BE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEC724872130415A0068E6BE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AEC7248B213042890068E6BE /* ViewPagerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPagerController.swift; sourceTree = "<group>"; };
+		AEC7248C213042890068E6BE /* ViewPagerOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPagerOptions.swift; sourceTree = "<group>"; };
+		AEC7248D213042890068E6BE /* ViewPagerTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPagerTab.swift; sourceTree = "<group>"; };
+		AEC7248E213042890068E6BE /* ViewPagerTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPagerTabView.swift; sourceTree = "<group>"; };
+		AEC80F4C21528ED300A89E06 /* Extra_Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extra_Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE218A60216727D6009CBD40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE78B882210F0AE800327F19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF267C3CF5747CF26B6C78C /* Pods_Curah_Provider.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BBEF3403FBEF18A01678613 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A01CD65D55330009960384E /* Pods-Curah Provider.debug.xcconfig */,
+				A81BAA6A9D5E5ED68BFE1AEF /* Pods-Curah Provider.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AE06D0632181F1C800BAAFE1 /* Web view */ = {
+			isa = PBXGroup;
+			children = (
+				AE06D0642181F1E200BAAFE1 /* WebViewVC.swift */,
+			);
+			path = "Web view";
+			sourceTree = "<group>";
+		};
+		AE150C5721101FA70042851B /* Create Profile */ = {
+			isa = PBXGroup;
+			children = (
+				AE150C5821101FA70042851B /* CreateProfileVC.swift */,
+			);
+			path = "Create Profile";
+			sourceTree = "<group>";
+		};
+		AE150C5E21102ABA0042851B /* Complete Profile */ = {
+			isa = PBXGroup;
+			children = (
+				AE150C5F21102ADC0042851B /* CompleteProfileVC.swift */,
+			);
+			path = "Complete Profile";
+			sourceTree = "<group>";
+		};
+		AE150C61211039670042851B /* AddServices */ = {
+			isa = PBXGroup;
+			children = (
+				AE150C622110397D0042851B /* AddServicesVC.swift */,
+				AE1D202421552AEF001DBCE7 /* AddservicesPopUpViewController.swift */,
+			);
+			path = AddServices;
+			sourceTree = "<group>";
+		};
+		AE150C642110475F0042851B /* Receipt */ = {
+			isa = PBXGroup;
+			children = (
+				AE150C65211047830042851B /* ReceiptVC.swift */,
+			);
+			path = Receipt;
+			sourceTree = "<group>";
+		};
+		AE150C67211058FE0042851B /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				AE150C6821105C0C0042851B /* EditProfileVC.swift */,
+			);
+			path = EditProfile;
+			sourceTree = "<group>";
+		};
+		AE150C6A211060B50042851B /* ProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				AE150C6C211060D20042851B /* BankInfoVC.swift */,
+				AE150C6D211060D20042851B /* MyDocumentsVC.swift */,
+				AE150C6B211060D20042851B /* MyServicesVC.swift */,
+				AE150C6F211060D30042851B /* ProfileVC.swift */,
+				AE150C6E211060D20042851B /* ScheduleVC.swift */,
+			);
+			path = ProfileView;
+			sourceTree = "<group>";
+		};
+		AE150C80211086740042851B /* Appointment */ = {
+			isa = PBXGroup;
+			children = (
+				AE150C7E211084960042851B /* MyAppointmentVC.swift */,
+			);
+			path = Appointment;
+			sourceTree = "<group>";
+		};
+		AE218A64216727D6009CBD40 /* Curah Service Provider service extension */ = {
+			isa = PBXGroup;
+			children = (
+				AE2CE750220B117E002E5DCC /* Curah Service Provider service extension.entitlements */,
+				AE218A65216727D6009CBD40 /* NotificationService.swift */,
+				AE218A67216727D6009CBD40 /* Info.plist */,
+			);
+			path = "Curah Service Provider service extension";
+			sourceTree = "<group>";
+		};
+		AE22D8F1220D57D100093CF0 /* Change password */ = {
+			isa = PBXGroup;
+			children = (
+				AE22D8F2220D57F400093CF0 /* ChangePasswordViewController.swift */,
+			);
+			path = "Change password";
+			sourceTree = "<group>";
+		};
+		AE78B87C210F0AE800327F19 = {
+			isa = PBXGroup;
+			children = (
+				AE78B887210F0AE800327F19 /* Curah Provider */,
+				AE218A64216727D6009CBD40 /* Curah Service Provider service extension */,
+				AE78B886210F0AE800327F19 /* Products */,
+				4BBEF3403FBEF18A01678613 /* Pods */,
+				D5DF6D7B25161307E2BD0DFC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE78B886210F0AE800327F19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE78B885210F0AE800327F19 /* Curah Provider.app */,
+				AE218A63216727D6009CBD40 /* Curah Service Provider service extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE78B887210F0AE800327F19 /* Curah Provider */ = {
+			isa = PBXGroup;
+			children = (
+				AE2BD5D8215B565600302CE3 /* Curah Provider.entitlements */,
+				AE66D562215B45950023E261 /* GoogleService-Info.plist */,
+				AEC80F4B21528EBB00A89E06 /* Extensions */,
+				AE78B894210F0AF100327F19 /* Info.plist */,
+				AE78B8BA210F14EC00327F19 /* Fonts */,
+				AEC7247821303FF10068E6BE /* Models */,
+				AEC724852130415A0068E6BE /* View */,
+				AE78B89A210F0F5200327F19 /* Controllers */,
+				AE78B88F210F0AF100327F19 /* Assets.xcassets */,
+			);
+			path = "Curah Provider";
+			sourceTree = "<group>";
+		};
+		AE78B89A210F0F5200327F19 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AE22D8F1220D57D100093CF0 /* Change password */,
+				AE06D0632181F1C800BAAFE1 /* Web view */,
+				AE835F40214BFF3A001F5F64 /* Review List */,
+				AEC7245221303F6D0068E6BE /* API Manager */,
+				AEC7245721303F6E0068E6BE /* Save User Response */,
+				AEC7245021303F6D0068E6BE /* RequestParameters */,
+				AEC7245B21303F6E0068E6BE /* Helper Classes */,
+				AEC7245521303F6D0068E6BE /* Constant */,
+				AEC7245921303F6E0068E6BE /* Validations */,
+				AEC7248A213042890068E6BE /* PageViewer */,
+				AEA5AA5B21130C6B009400C8 /* CancelAppointmentPopupVC.swift */,
+				AEA5AA562112D757009400C8 /* Chat */,
+				AE150C80211086740042851B /* Appointment */,
+				AE150C6A211060B50042851B /* ProfileView */,
+				AE150C67211058FE0042851B /* EditProfile */,
+				AE150C642110475F0042851B /* Receipt */,
+				AE78B8EE210F403600327F19 /* Home */,
+				AE78B8EB210F357D00327F19 /* Rate & Review Popup */,
+				AE78B8E5210F314900327F19 /* Settings */,
+				AE78B8E2210F313A00327F19 /* Contact Us */,
+				AE78B8DF210F2F3100327F19 /* Messages List */,
+				AE78B8DC210F2CC300327F19 /* Notfication List */,
+				AE78B8D3210F26B100327F19 /* Portfolio */,
+				AE78B8D0210F221D00327F19 /* History List */,
+				AE78B8CD210F1E1800327F19 /* Service Details */,
+				AE78B8B1210F127900327F19 /* Menu Class */,
+				AE78B8CA210F19D500327F19 /* Add Card */,
+				AE150C61211039670042851B /* AddServices */,
+				AE150C5E21102ABA0042851B /* Complete Profile */,
+				AE150C5721101FA70042851B /* Create Profile */,
+				AE78B8C7210F164200327F19 /* SignUp */,
+				AEC7244521303E930068E6BE /* Forgot Password */,
+				AEC7244821303E930068E6BE /* Login */,
+				AEC7244A21303E930068E6BE /* AppDelegate */,
+				AEC72482213040BE0068E6BE /* Base Class */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AE78B8B1210F127900327F19 /* Menu Class */ = {
+			isa = PBXGroup;
+			children = (
+				AE78B8B2210F127900327F19 /* Menu.swift */,
+			);
+			path = "Menu Class";
+			sourceTree = "<group>";
+		};
+		AE78B8BA210F14EC00327F19 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AE78B8BB210F14EC00327F19 /* AvenirLTStd-Book.otf */,
+				AE78B8BC210F14EC00327F19 /* AvenirLTStd-Heavy.ttf */,
+				AE78B8BD210F14EC00327F19 /* AvenirLTStd-Light.otf */,
+				AE78B8BE210F14EC00327F19 /* AvenirLTStd-Roman.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		AE78B8C7210F164200327F19 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				AE78B8C8210F164200327F19 /* SignUpViewController.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		AE78B8CA210F19D500327F19 /* Add Card */ = {
+			isa = PBXGroup;
+			children = (
+				AE78B8CB210F19D500327F19 /* AddCardVC.swift */,
+			);
+			path = "Add Card";
+			sourceTree = "<group>";
+		};
+		AE78B8CD210F1E1800327F19 /* Service Details */ = {
+			isa = PBXGroup;
+			children = (
+				AE78B8CE210F1E1800327F19 /* ServiceDetailsVC.swift */,
+			);
+			path = "Service Details";
+			sourceTree = "<group>";
+		};
+		AE78B8D0210F221D00327F19 /* History List */ = {
+			isa = PBXGroup;
+			children = (
+				AE78B8D1210F221D00327F19 /* HistoryListVC.swift */,
+			);
+			path = "History List";
+			sourceTree = "<group>";
+		};
+		AE78B8D3210F26B100327F19 /* Portfolio */ = {
+			isa = PBXGroup;
+			children = (
+				AE78B8D6210F278400327F19 /* AddPortfiloVC.swift */,
+				AE78B8D4210F278400327F19 /* EditDocumentVC.swift */,
+				AE78B8D7210F278400327F19 /* PortFolioDetailVC.swift */,
+				AE78B8D5210F278400327F19 /* PortFolioVC.swift */,
+			);
+			path = Portfolio;
+			sourceTree = "<group>";
+		};
+		AE78B8DC210F2CC300327F19 /* Notfication List */ = {
+			isa = PBXGroup;
+			children = (
+				AE78B8DD210F2CC300327F19 /* NotificationListVC.swift */,
+			);
+			path = "Notfication List";
+			sourceTree = "<group>";
+		};
+		AE78B8DF210F2F3100327F19 /* Messages List */ = {
+			isa = PBXGroup;
+			children = (
+				AE78B8E0210F2F3100327F19 /* MessagesListVC.swift */,
+			);
+			path = "Messages List";
+			sourceTree = "<group>";
+		};
+		AE78B8E2210F313A00327F19 /* Contact Us */ = {
+			isa = PBXGroup;
+			children = (
+				AE78B8E3210F313A00327F19 /* ContactUsVC.swift */,
+			);
+			path = "Contact Us";
+			sourceTree = "<group>";
+		};
+		AE78B8E5210F314900327F19 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				AE78B8E6210F314900327F19 /* SettingsVC.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		AE78B8EB210F357D00327F19 /* Rate & Review Popup */ = {
+			isa = PBXGroup;
+			children = (
+				AE78B8EC210F357D00327F19 /* RateReviewPopUpVC.swift */,
+			);
+			path = "Rate & Review Popup";
+			sourceTree = "<group>";
+		};
+		AE78B8EE210F403600327F19 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AE78B8EF210F405800327F19 /* HomeVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AE835F40214BFF3A001F5F64 /* Review List */ = {
+			isa = PBXGroup;
+			children = (
+				AE835F41214BFF3A001F5F64 /* ReviewListVC.swift */,
+			);
+			path = "Review List";
+			sourceTree = "<group>";
+		};
+		AEA5AA562112D757009400C8 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				AEA5AA572112D757009400C8 /* ChatTableCell.swift */,
+				AEA5AA582112D757009400C8 /* ChatVC.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		AEC7244521303E930068E6BE /* Forgot Password */ = {
+			isa = PBXGroup;
+			children = (
+				AEC7244621303E930068E6BE /* ForgotPassswordViewController.swift */,
+				AEC7244721303E930068E6BE /* ForgotPasswordPopUpViewController.swift */,
+			);
+			path = "Forgot Password";
+			sourceTree = "<group>";
+		};
+		AEC7244821303E930068E6BE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				AEC7244921303E930068E6BE /* LoginViewController.swift */,
+			);
+			name = Login;
+			path = AppDelegate/Login;
+			sourceTree = "<group>";
+		};
+		AEC7244A21303E930068E6BE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				AEC7244B21303E930068E6BE /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		AEC7245021303F6D0068E6BE /* RequestParameters */ = {
+			isa = PBXGroup;
+			children = (
+				AEC7245121303F6D0068E6BE /* RequestParams.swift */,
+			);
+			path = RequestParameters;
+			sourceTree = "<group>";
+		};
+		AEC7245221303F6D0068E6BE /* API Manager */ = {
+			isa = PBXGroup;
+			children = (
+				AEC7245321303F6D0068E6BE /* APIManager.swift */,
+				AEC7245421303F6D0068E6BE /* Progress.swift */,
+			);
+			path = "API Manager";
+			sourceTree = "<group>";
+		};
+		AEC7245521303F6D0068E6BE /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				AEC7245621303F6D0068E6BE /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		AEC7245721303F6E0068E6BE /* Save User Response */ = {
+			isa = PBXGroup;
+			children = (
+				AEC7245821303F6E0068E6BE /* SaveUserResponse.swift */,
+			);
+			path = "Save User Response";
+			sourceTree = "<group>";
+		};
+		AEC7245921303F6E0068E6BE /* Validations */ = {
+			isa = PBXGroup;
+			children = (
+				AEC7245A21303F6E0068E6BE /* Validation.swift */,
+			);
+			path = Validations;
+			sourceTree = "<group>";
+		};
+		AEC7245B21303F6E0068E6BE /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AEC381B3215252B500B00414 /* ExtraExtensions.swift */,
+				AE835F3E214A8F41001F5F64 /* ImageLoader.swift */,
+				AEC7245C21303F6E0068E6BE /* ButtonExtentions.swift */,
+				AEC7245D21303F6E0068E6BE /* Colors.swift */,
+				AEC7245E21303F6E0068E6BE /* CUIView.swift */,
+				AEC7245F21303F6E0068E6BE /* Extensions.swift */,
+				AEC7246021303F6E0068E6BE /* StringExtentions.swift */,
+				AEC7246121303F6E0068E6BE /* TextFieldsExtentions.swift */,
+				AEC7246221303F6E0068E6BE /* UCButton.swift */,
+				AEC7246321303F6E0068E6BE /* UCTextFld.swift */,
+				AEC7246421303F6E0068E6BE /* UITextFieldExtention.swift */,
+				AEC7246521303F6E0068E6BE /* ViewExtention.swift */,
+				AEC7246621303F6E0068E6BE /* YLColor.swift */,
+			);
+			path = "Helper Classes";
+			sourceTree = "<group>";
+		};
+		AEC7247821303FF10068E6BE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AEC7247921303FF10068E6BE /* Home Page */,
+				AEC7247B21303FF10068E6BE /* ModalBase */,
+				AEC7247D21303FF10068E6BE /* ModalSharedInstance */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AEC7247921303FF10068E6BE /* Home Page */ = {
+			isa = PBXGroup;
+			children = (
+				AEC7247A21303FF10068E6BE /* HomeModel.swift */,
+			);
+			path = "Home Page";
+			sourceTree = "<group>";
+		};
+		AEC7247B21303FF10068E6BE /* ModalBase */ = {
+			isa = PBXGroup;
+			children = (
+				AEC7247C21303FF10068E6BE /* ModalBase.swift */,
+			);
+			path = ModalBase;
+			sourceTree = "<group>";
+		};
+		AEC7247D21303FF10068E6BE /* ModalSharedInstance */ = {
+			isa = PBXGroup;
+			children = (
+				AEC7247E21303FF10068E6BE /* ModalShareInstance.swift */,
+			);
+			path = ModalSharedInstance;
+			sourceTree = "<group>";
+		};
+		AEC72482213040BE0068E6BE /* Base Class */ = {
+			isa = PBXGroup;
+			children = (
+				AEC72483213040BE0068E6BE /* BaseClass.swift */,
+			);
+			path = "Base Class";
+			sourceTree = "<group>";
+		};
+		AEC724852130415A0068E6BE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AEC724862130415A0068E6BE /* LaunchScreen.storyboard */,
+				AEC724872130415A0068E6BE /* Main.storyboard */,
+			);
+			name = View;
+			path = "Curah Provider/View";
+			sourceTree = SOURCE_ROOT;
+		};
+		AEC7248A213042890068E6BE /* PageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				AEC7248B213042890068E6BE /* ViewPagerController.swift */,
+				AEC7248C213042890068E6BE /* ViewPagerOptions.swift */,
+				AEC7248D213042890068E6BE /* ViewPagerTab.swift */,
+				AEC7248E213042890068E6BE /* ViewPagerTabView.swift */,
+			);
+			path = PageViewer;
+			sourceTree = "<group>";
+		};
+		AEC80F4B21528EBB00A89E06 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AEC80F4C21528ED300A89E06 /* Extra_Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D5DF6D7B25161307E2BD0DFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CD8DC2280A2AED931CBBDC2 /* Pods_Curah_Provider.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE218A62216727D6009CBD40 /* Curah Service Provider service extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE218A6D216727D6009CBD40 /* Build configuration list for PBXNativeTarget "Curah Service Provider service extension" */;
+			buildPhases = (
+				AE218A5F216727D6009CBD40 /* Sources */,
+				AE218A60216727D6009CBD40 /* Frameworks */,
+				AE218A61216727D6009CBD40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Curah Service Provider service extension";
+			productName = "Curah Service Provider service extension";
+			productReference = AE218A63216727D6009CBD40 /* Curah Service Provider service extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		AE78B884210F0AE800327F19 /* Curah Provider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE78B897210F0AF100327F19 /* Build configuration list for PBXNativeTarget "Curah Provider" */;
+			buildPhases = (
+				C887A2C7BB2482E92EBC2EBD /* [CP] Check Pods Manifest.lock */,
+				AE78B881210F0AE800327F19 /* Sources */,
+				AE78B882210F0AE800327F19 /* Frameworks */,
+				AE78B883210F0AE800327F19 /* Resources */,
+				B7A69A905BB59EC00608D1A2 /* [CP] Embed Pods Frameworks */,
+				05E64AE5555546B196778871 /* [CP] Copy Pods Resources */,
+				AE218A6E216727D6009CBD40 /* Embed App Extensions */,
+				AE50FE3521A2F1F9005D2CB9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE218A69216727D6009CBD40 /* PBXTargetDependency */,
+			);
+			name = "Curah Provider";
+			productName = "Curah Provider";
+			productReference = AE78B885210F0AE800327F19 /* Curah Provider.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE78B87D210F0AE800327F19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Netset;
+				TargetAttributes = {
+					AE218A62216727D6009CBD40 = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					AE78B884210F0AE800327F19 = {
+						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = AE78B880210F0AE800327F19 /* Build configuration list for PBXProject "Curah Provider" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE78B87C210F0AE800327F19;
+			productRefGroup = AE78B886210F0AE800327F19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE78B884210F0AE800327F19 /* Curah Provider */,
+				AE218A62216727D6009CBD40 /* Curah Service Provider service extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE218A61216727D6009CBD40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE78B883210F0AE800327F19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC724892130415A0068E6BE /* Main.storyboard in Resources */,
+				AE78B8C0210F14EC00327F19 /* AvenirLTStd-Heavy.ttf in Resources */,
+				AE78B8C1210F14EC00327F19 /* AvenirLTStd-Light.otf in Resources */,
+				AE78B890210F0AF100327F19 /* Assets.xcassets in Resources */,
+				AE66D563215B45960023E261 /* GoogleService-Info.plist in Resources */,
+				AEC724882130415A0068E6BE /* LaunchScreen.storyboard in Resources */,
+				AE78B8C2210F14EC00327F19 /* AvenirLTStd-Roman.otf in Resources */,
+				AE78B8BF210F14EC00327F19 /* AvenirLTStd-Book.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05E64AE5555546B196778871 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Curah Provider/Pods-Curah Provider-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Curah Provider/Pods-Curah Provider-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE50FE3521A2F1F9005D2CB9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\"";
+		};
+		B7A69A905BB59EC00608D1A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Curah Provider/Pods-Curah Provider-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ACFloatingTextfield-Swift/ACFloatingTextfield_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/BGTableViewRowActionWithImage/BGTableViewRowActionWithImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/FloatRatingView/FloatRatingView.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/KMPlaceholderTextView/KMPlaceholderTextView.framework",
+				"${BUILT_PRODUCTS_DIR}/LGSideMenuController/LGSideMenuController.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SKPhotoBrowser/SKPhotoBrowser.framework",
+				"${BUILT_PRODUCTS_DIR}/UIFloatLabelTextField/UIFloatLabelTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ACFloatingTextfield_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BGTableViewRowActionWithImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FloatRatingView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KMPlaceholderTextView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LGSideMenuController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SKPhotoBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIFloatLabelTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Curah Provider/Pods-Curah Provider-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C887A2C7BB2482E92EBC2EBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Curah Provider-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE218A5F216727D6009CBD40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE218A66216727D6009CBD40 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE78B881210F0AE800327F19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA5AA5A2112D757009400C8 /* ChatVC.swift in Sources */,
+				AEC7247121303F6F0068E6BE /* StringExtentions.swift in Sources */,
+				AEC80F4D21528ED300A89E06 /* Extra_Extensions.swift in Sources */,
+				AEC381B4215252B500B00414 /* ExtraExtensions.swift in Sources */,
+				AEC7247421303F6F0068E6BE /* UCTextFld.swift in Sources */,
+				AE150C632110397D0042851B /* AddServicesVC.swift in Sources */,
+				AE78B8D2210F221D00327F19 /* HistoryListVC.swift in Sources */,
+				AEA5AA592112D757009400C8 /* ChatTableCell.swift in Sources */,
+				AEC7246A21303F6E0068E6BE /* Constant.swift in Sources */,
+				AEC7244D21303E930068E6BE /* ForgotPasswordPopUpViewController.swift in Sources */,
+				AEC7244C21303E930068E6BE /* ForgotPassswordViewController.swift in Sources */,
+				AE78B8CC210F19D500327F19 /* AddCardVC.swift in Sources */,
+				AEC7247721303F6F0068E6BE /* YLColor.swift in Sources */,
+				AEC7244F21303E930068E6BE /* AppDelegate.swift in Sources */,
+				AEC7246C21303F6E0068E6BE /* Validation.swift in Sources */,
+				AEC7246821303F6E0068E6BE /* APIManager.swift in Sources */,
+				AE78B8D9210F278400327F19 /* PortFolioVC.swift in Sources */,
+				AEC724902130428A0068E6BE /* ViewPagerOptions.swift in Sources */,
+				AEC7244E21303E930068E6BE /* LoginViewController.swift in Sources */,
+				AEC7248021303FF10068E6BE /* ModalBase.swift in Sources */,
+				AE150C71211060D30042851B /* BankInfoVC.swift in Sources */,
+				AEC7247221303F6F0068E6BE /* TextFieldsExtentions.swift in Sources */,
+				AE78B8DE210F2CC300327F19 /* NotificationListVC.swift in Sources */,
+				AE1D202521552AEF001DBCE7 /* AddservicesPopUpViewController.swift in Sources */,
+				AE835F3F214A8F41001F5F64 /* ImageLoader.swift in Sources */,
+				AE78B8E7210F314900327F19 /* SettingsVC.swift in Sources */,
+				AE150C6021102ADC0042851B /* CompleteProfileVC.swift in Sources */,
+				AEC7246D21303F6E0068E6BE /* ButtonExtentions.swift in Sources */,
+				AEC72484213040BF0068E6BE /* BaseClass.swift in Sources */,
+				AEC7247521303F6F0068E6BE /* UITextFieldExtention.swift in Sources */,
+				AE150C66211047830042851B /* ReceiptVC.swift in Sources */,
+				AE78B8D8210F278400327F19 /* EditDocumentVC.swift in Sources */,
+				AEC7248F2130428A0068E6BE /* ViewPagerController.swift in Sources */,
+				AE78B8B3210F127900327F19 /* Menu.swift in Sources */,
+				AE150C72211060D30042851B /* MyDocumentsVC.swift in Sources */,
+				AEC7246E21303F6F0068E6BE /* Colors.swift in Sources */,
+				AE78B8C9210F164200327F19 /* SignUpViewController.swift in Sources */,
+				AE150C74211060D30042851B /* ProfileVC.swift in Sources */,
+				AEA5AA5C21130C6B009400C8 /* CancelAppointmentPopupVC.swift in Sources */,
+				AEC7248121303FF10068E6BE /* ModalShareInstance.swift in Sources */,
+				AEC7247F21303FF10068E6BE /* HomeModel.swift in Sources */,
+				AE78B8ED210F357D00327F19 /* RateReviewPopUpVC.swift in Sources */,
+				AEC7246B21303F6E0068E6BE /* SaveUserResponse.swift in Sources */,
+				AE150C6921105C0C0042851B /* EditProfileVC.swift in Sources */,
+				AEC7246921303F6E0068E6BE /* Progress.swift in Sources */,
+				AE150C73211060D30042851B /* ScheduleVC.swift in Sources */,
+				AEC7246721303F6E0068E6BE /* RequestParams.swift in Sources */,
+				AE78B8E4210F313A00327F19 /* ContactUsVC.swift in Sources */,
+				AEC724912130428A0068E6BE /* ViewPagerTab.swift in Sources */,
+				AE78B8F0210F405800327F19 /* HomeVC.swift in Sources */,
+				AE150C7F211084960042851B /* MyAppointmentVC.swift in Sources */,
+				AE835F42214BFF3B001F5F64 /* ReviewListVC.swift in Sources */,
+				AEC7246F21303F6F0068E6BE /* CUIView.swift in Sources */,
+				AE78B8E1210F2F3100327F19 /* MessagesListVC.swift in Sources */,
+				AEC7247621303F6F0068E6BE /* ViewExtention.swift in Sources */,
+				AE78B8CF210F1E1800327F19 /* ServiceDetailsVC.swift in Sources */,
+				AEC7247321303F6F0068E6BE /* UCButton.swift in Sources */,
+				AE78B8DA210F278400327F19 /* AddPortfiloVC.swift in Sources */,
+				AE22D8F3220D57F400093CF0 /* ChangePasswordViewController.swift in Sources */,
+				AE78B8DB210F278400327F19 /* PortFolioDetailVC.swift in Sources */,
+				AE150C70211060D30042851B /* MyServicesVC.swift in Sources */,
+				AE06D0652181F1E200BAAFE1 /* WebViewVC.swift in Sources */,
+				AEC724922130428A0068E6BE /* ViewPagerTabView.swift in Sources */,
+				AEC7247021303F6F0068E6BE /* Extensions.swift in Sources */,
+				AE150C5921101FA80042851B /* CreateProfileVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE218A69216727D6009CBD40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE218A62216727D6009CBD40 /* Curah Service Provider service extension */;
+			targetProxy = AE218A68216727D6009CBD40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AE218A6B216727D6009CBD40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Curah Service Provider service extension/Curah Service Provider service extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8246258KWL;
+				INFOPLIST_FILE = "Curah Service Provider service extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.curahProvider.Curah-Service-Provider-service-extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AE218A6C216727D6009CBD40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Curah Service Provider service extension/Curah Service Provider service extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8246258KWL;
+				INFOPLIST_FILE = "Curah Service Provider service extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.curahProvider.Curah-Service-Provider-service-extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AE78B895210F0AF100327F19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8246258KWL;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE78B896210F0AF100327F19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8246258KWL;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE78B898210F0AF100327F19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A01CD65D55330009960384E /* Pods-Curah Provider.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Curah Provider/Curah Provider.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8246258KWL;
+				INFOPLIST_FILE = "Curah Provider/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.curahProvider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AE78B899210F0AF100327F19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A81BAA6A9D5E5ED68BFE1AEF /* Pods-Curah Provider.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Curah Provider/Curah Provider.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8246258KWL;
+				INFOPLIST_FILE = "Curah Provider/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.curahProvider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE218A6D216727D6009CBD40 /* Build configuration list for PBXNativeTarget "Curah Service Provider service extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE218A6B216727D6009CBD40 /* Debug */,
+				AE218A6C216727D6009CBD40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE78B880210F0AE800327F19 /* Build configuration list for PBXProject "Curah Provider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE78B895210F0AF100327F19 /* Debug */,
+				AE78B896210F0AF100327F19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE78B897210F0AF100327F19 /* Build configuration list for PBXNativeTarget "Curah Provider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE78B898210F0AF100327F19 /* Debug */,
+				AE78B899210F0AF100327F19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE78B87D210F0AE800327F19 /* Project object */;
+}
